@@ -1,0 +1,38 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: red;
+    color: aliceblue;
+}
+h1{
+    color:blue;
+}
+/*child selector*/
+
+ul>li {
+    font-weight: bild
+}
+
+/*:nth-child(n) pseudo class*/
+
+ul li:nth-child(3) {
+    background-color: blue;
+}
+
+ul li:after {
+    content:"✈️"
+}
+
+ul li:before{
+    content: "✈️"
+}
+
+ul li:hover {
+    color:red; "✈️"
+}
+
+h1+p {
+   color:orange;
+   font-weight: bolder;
+    border-radius: 5px;
+
+}
